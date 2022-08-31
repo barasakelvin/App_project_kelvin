@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back"
+    android:background="@drawable/main"
     tools:context=".MainActivity" >
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView_title"
         android:layout_width="364dp"
         android:layout_height="63dp"
         android:layout_marginStart="80dp"
@@ -24,26 +24,25 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="379dp"
-        android:layout_height="358dp"
+        android:layout_width="396dp"
+        android:layout_height="428dp"
         app:layout_constraintBottom_toTopOf="@+id/Btn_next"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412"
-        app:srcCompat="@drawable/hosi" />
-
+        app:layout_constraintVertical_bias="0.542"
+        app:srcCompat="@drawable/imo" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView_bot"
         android:layout_width="364dp"
         android:layout_height="63dp"
         android:layout_marginStart="80dp"

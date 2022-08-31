@@ -70,7 +70,7 @@ class Activityfeedback : AppCompatActivity() {
                     user_number,
                     user_description,
                     id,
-                    isAdmin = 0
+
                 )
                 //CREATE A REFERENCE TO THE DATABASE TO STORE DATA
                 val reference = FirebaseDatabase.getInstance().getReference().child("Users/$id")
@@ -82,12 +82,12 @@ class Activityfeedback : AppCompatActivity() {
                         startActivity(goToDash)
                         Toast.makeText(
                             applicationContext,
-                            "Details saved successfully",
+                            "Details submitted successfully",
                             Toast.LENGTH_LONG
                         ).show()
                         finish()
                     }else{
-                        Toast.makeText(this,"Failed to send",Toast.LENGTH_LONG).show()
+                        Toast.makeText(this,"Failed to submit",Toast.LENGTH_LONG).show()
                         finish()
                     }
 
